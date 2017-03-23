@@ -55,11 +55,11 @@ a:hover {
   transition: .5s ease;
 }
 .tab-group li a:hover {
-  background: #179b77;
+  background: #ff4444;
   color: #ffffff;
 }
 .tab-group .active a {
-  background: #1ab188;
+  background: #ff4444;
   color: #ffffff;
 }
 
@@ -157,20 +157,46 @@ textarea {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .1em;
-  background: #1ab188;
+  background: #ff4444;
   color: #ffffff;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   -webkit-appearance: none;
 }
 .button:hover, .button:focus {
-  background: #179b77;
+  background: #ff5656;
 }
 
 .button-block {
   display: block;
   width: 100%;
 }
+
+
+.buttonFB {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #3b5998;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.buttonFB:hover, .buttonFB:focus {
+  background: #8b9dc3;
+}
+
+.buttonFB-block {
+  display: block;
+  width: 100%;
+}
+
 
 .forgot {
   margin-top: -20px;
